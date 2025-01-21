@@ -6,7 +6,7 @@ const TaskTile: React.FC<TaskTileProps> = ({ task, onComplete, onDelete }) => (
     <h3>{task.title}</h3>
     {task.description && <p>{task.description}</p>}
     <p>Status: {task.status}</p>
-    <p>Priority: {task.priority}</p>  {/* Display priority */}
+    <p>Priority: {task.priority}</p>
     
     {task.status === 'Pending' && (
       <button onClick={() => onComplete(task.id)}>Mark as Completed</button>
