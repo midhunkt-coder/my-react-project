@@ -40,7 +40,7 @@ const Dashboard: React.FC = () => {
 
   return (
     <div>
-      <h2 style={{ padding : '0px'}}>Task Dashboard</h2>
+      <h2 style={{ padding : '0px'}}>Task Management Dashboard</h2>
       {successMessage && (
         <div style={{ padding: '10px', backgroundColor: '#4CAF50', color: 'white', marginBottom: '20px' }}>
           {successMessage}
